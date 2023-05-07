@@ -1,0 +1,155 @@
+@charset "UTF-8";
+
+@font-face {
+    font-family: 'PixelFont';
+    src: url(../font/PixelFont1.ttf) format(truetype);
+}
+
+@font-face {
+    font-family: 'PixelFont2';
+    src: url(../font/PixelFont2.ttf) format(truetype);
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Vina+Sans&display=swap');
+/*font-family: 'Vina Sans', cursive;*/
+
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+    background: url('../img/pokemon-fundo.jpg') no-repeat center top fixed;
+    background-size: cover;
+}
+
+nav {
+    padding: 5px;
+    background-color: white;
+    box-shadow: 0px 8px 9px rgba(0, 0, 0, 0.411);
+}
+
+nav a {
+    margin: 10px;
+    font-weight: 500;
+    font-family: 'Vina Sans', cursive;
+    text-decoration: none;
+    color: black;
+}
+
+nav a:hover {
+    border: 1px solid black;
+    padding: 4px;
+    transition-duration: 0.3s;
+}
+
+header {
+    padding: 10px;
+    font-family: 'PixelFont';
+}
+
+header h1, header p {
+    font-family: 'PixelFont';
+    color: white;
+    text-align: center;
+    font-weight: 100;
+    text-shadow: 2px 4px 7px rgba(0, 0, 0, 0.548);
+}
+
+header {
+    background-image: linear-gradient(to bottom, rgb(255, 48, 255), rgb(187, 31, 187), purple);
+}
+
+main {
+    box-shadow: 0px 12px 15px rgba(0, 0, 0, 0.596);
+    background-color: white;
+    min-width: 400px;
+    max-width: 1500px;
+
+    padding: 15px 0px;
+    margin: auto;
+}
+section {
+    margin: 15px;
+}
+
+section p {
+    font-weight: 600;
+    min-width: 400px;
+    max-width: 725px;
+    margin: auto;
+    padding: 7px 15px;
+}
+
+section a {
+    color: purple;
+    text-decoration: none;
+}
+
+section a:hover{
+    padding: 3px;
+    background-color: purple;
+    color:white;
+    border-radius: 5px;
+    text-decoration: underline;
+    transition-duration: 0.5s;
+}
+
+section h2{
+    font-family: 'PixelFont2';
+
+    padding: 20px 0px;
+    font-size: 23px;
+
+    background-image: linear-gradient(to bottom, rgba(192, 8, 192), rgb(66, 1, 66));
+    border-radius: 25px;
+    color: white;
+
+    min-width: 400px;
+    max-width: 530px;
+
+    margin: 5px auto;
+}
+
+section#PokeFav{
+    text-align: center;
+}
+
+section#PokeFav h3 {
+    font-size: 2em;
+}
+
+iframe.list {
+    width: 581px;
+    height: 581px;
+    display: block;
+    padding: 10px 0px;
+    margin: auto;
+}
+
+img.pokemons {
+    margin: 10px;
+    padding: 20px;
+    width: 300px;
+    border: 1px solid black;
+    border-radius: 50%;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.479);
+}
+
+div#linha {
+    margin: 10px;
+    border: 1px solid black;
+}
+
+footer {
+    box-shadow: -1px -1px 10px 0px rgba(0, 0, 0, 0.486);
+    padding: 10px;
+    background-image: linear-gradient(to top, purple, rgb(192, 7, 192), rgb(206, 0, 206));
+}
+
+footer p, footer a {
+    font-size: 17px;
+    text-align: center;
+    color: white
+}
